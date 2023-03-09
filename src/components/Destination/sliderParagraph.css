@@ -1,0 +1,16 @@
+.sliderParagraph{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.spChild{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    font-size: 1.1rem;
+}
+

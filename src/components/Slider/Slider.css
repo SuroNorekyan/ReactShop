@@ -1,0 +1,47 @@
+.containerStyle{
+    width: 60%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.slideStyles{
+    width: "100%";
+    height: 500px;
+        border-radius: '10px';
+        background-position: 'center';
+        background-size: "cover";
+        border:solid 1px black;
+}
+.arrowStyleR{
+    width: 10%;
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    right: 15%;
+    color: white;
+}
+.arrowStyleL{
+    width: 10%;
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    left: 15%;
+    color: white;
+}
+.dots{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.currentDot{
+    color:yellow;
+}
